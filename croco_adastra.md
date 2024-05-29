@@ -117,7 +117,7 @@ NETCDFLIB="-L/lus/home/CT1/c1601279/lweiss/opt/hdf5_netcdf4_intel_par/lib -lnetc
 NETCDFINC="-I/lus/home/CT1/c1601279/lweiss/opt/hdf5_netcdf4_intel_par/include"
 ```
 
-* Run ```./compilation```
+* Run ```./compile```
 
 * If compilation is successful, you should have a ```croco``` executable in your directory.
 
