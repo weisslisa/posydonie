@@ -1,0 +1,7 @@
+# ADAPT STOGEN IN CROCO COMPILATION TESTS
+
+* Problem with the order in which the STOGEN routines are compiled 
+- include in `./OCEAN/Makefile` the list of STOGEN routines in `SRCS90 =` in the right order od dependencies
+- add a space between `stoexternal` and the coma in all STOGEN routines dependencie calls
+
+* `stoexternal.F90`
