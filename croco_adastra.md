@@ -41,7 +41,7 @@ git branch
 
 * Prior to the compilation` - we need to set the paths to netcdf libraries.
 
-1) Copy the netcdf libraries from Laurent Brodeau home directory into ```$OWN_HOMEDIR/opt/hdf5_netcdf4_intel_par/```
+1) Copy or point at the netcdf libraries in ```/lus/home/CT1/c1601279/lweiss/opt/hdf5_netcdf4_intel_par/``` 
 2) Edit the ```.bashrc``` such as :
 ```
 ### Compile
