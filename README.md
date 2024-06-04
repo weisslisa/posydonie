@@ -1,2 +1,3 @@
-# posydonie
-set up CROCO stochastic on Adastra
+# POSYDONIE
+
+Stochastic parametrizations of Croco ocean model. 
