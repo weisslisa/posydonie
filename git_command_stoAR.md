@@ -1,5 +1,7 @@
 # Git command for CROCO master branch dev_2024_stoAR
 
+## PUSH
+
 * Add the new or modified files to the Git staging area
 ```
 cd ./CROCO/croco
@@ -21,4 +23,20 @@ git commit -m "Added STOGEN directory and scripts"
 ```
 git config --global --edit
 git commit --amend --reset-author
+```
+
+## PULL
+
+```
+git branch
+git fetch
+git status
+git rebase origin/dev_2024_AR ou git rebase origin
+```
+
+## REVENIR EN ARRIERE
+
+```
+git reflog
+git reset --hard HEAD@{9}
 ```
