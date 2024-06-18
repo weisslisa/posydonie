@@ -41,3 +41,32 @@ to :
       real, TARGET :: vmask(GLOBAL_2D_ARRAY)
       real pmask2(GLOBAL_2D_ARRAY)
 ```
+
+## Dev avec Quentin et JM
+
+* `stobulk.F90` : champs stochastics
+* `stoexternal.F90` : correspondance tableaux variables et mask entre croco et stogen
+* `/OCEAN/bulk_flux.F` : écriture variable stochastic fichiers sortie (clé STOGEN - var `tmpout`)
+
+* modified files in `/OCEAN/`
+  - Makefile
+  - jobcomp
+  - param.h
+  - cppdefs.h
+  
+  - mpi_cpl.h
+  - grid.h
+  - strings.h
+  - ocean3d.h (clé STOGEN - var `tmpout`)
+  - ncscrum.h (clé STOGEN - var `hisTMPsto` `indxTMPsto`)
+    
+  - main.F (clé STOGEN - call/USE stogen scripts)
+  - def_his.F (clé STOGEN - declaration variables `hisTMPsto` `indxTMPsto`)
+  - wrt_his.F (clé STOGEN - `tmpout`)
+  - bulk_flux.F (clé STOGEN - var `tmpout`)
+  - init_scalars.F 
+  - init_arrays.F
+  - read_inp.F
+  - step.Fvi 
+  - v2dbc.F
+  - u2dbc.F
