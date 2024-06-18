@@ -125,7 +125,7 @@ NETCDFINC="-I/lus/home/CT1/c1601279/lweiss/opt/hdf5_netcdf4_intel_par/include"
 
 * Atmospheric forcing *ONLINE*
 
-in 'CROCO/RUN/SWIOSE/DATA/ERA5_SWIOSE' do 'mv [var]_Y2019M1.nc [var]_Y2019M01.nc'
+in `CROCO/RUN/SWIOSE/DATA/ERA5_SWIOSE` do `mv [var]_Y2019M1.nc [var]_Y2019M01.nc`
 and then :  
 ```
 ncatted -a time,units,o,c,"days since 2000-01-01" copy_[var]_Y2019M01.nc out_[var]_Y2019M01.nc'
