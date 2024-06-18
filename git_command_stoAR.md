@@ -17,6 +17,7 @@ git status
 * Commit and Push
 ```
 git commit -m "Added STOGEN directory and scripts"
+git push
 ```
 
 * to configure the name and email associated with the commit 
