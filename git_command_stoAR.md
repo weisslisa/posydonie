@@ -30,6 +30,7 @@ git commit --amend --reset-author
 
 ```
 git branch
+git diff 
 git fetch
 git status
 git rebase origin/dev_2024_AR ou git rebase origin
